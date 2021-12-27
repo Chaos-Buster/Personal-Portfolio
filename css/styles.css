@@ -1,3 +1,31 @@
 body {
-    color: red;
+    color: black;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans';
+}
+
+.header {
+    padding: 100px 0;
+    background-color: #c12a64;
+}
+
+.section {
+    padding: 50px 0;
+    background-color: #ccc992;
+}
+
+.footer {
+    padding: 1%;
+    background-color: #1081AF;
+}
+
+.ul {
+    list-style-type: none;
+    line-height: 2;
 }
