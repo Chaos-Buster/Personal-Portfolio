@@ -1,31 +1,35 @@
 body {
-    color: black;
-    text-align: center;
-    margin: 0;
-    line-height: 1.5;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: large;
+  color: black;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 p {
-    font-family: 'Lucida Sans';
+  font-family: 'Lucida Sans';
 }
 
 .header {
-    padding: 100px 0;
-    background-color: #c12a64;
+  padding: 80px 0;
+  background-color: #c12a64;
 }
 
 .section {
-    padding: 50px 0;
-    background-color: #ccc992;
+  padding: 20px 0;
+  background-color: #ccc992;
 }
 
 .footer {
-    padding: 1%;
-    background-color: #1081AF;
+  padding: 1%;
+  background-color: #1081af;
 }
 
 .ul {
-    list-style-type: none;
-    line-height: 2;
+  list-style-type: none;
+  line-height: 2;
+}
+.projects {
+  padding: 50px 0;
 }
