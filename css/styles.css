@@ -33,3 +33,19 @@ p {
 .projects {
   padding: 50px 0;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+.projects .btn {
+  color: #f7fff7;
+  background: linear-gradient(#ff6975, #ff0060);
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 80px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.btn1{color: #cddfaa}
