@@ -5,6 +5,9 @@ body {
   margin: 0;
   line-height: 1.5;
   font-family: 'Trebuchet MS', Arial, sans-serif;
+  background-color: #ccc992;
+
+  animation: section 5s linear infinite alternate;
 }
 
 h1,
@@ -16,6 +19,7 @@ h3 {
 .header {
   padding: 80px 0;
   background-color: #c12a64;
+  border-radius: 80px;
 }
 
 .content-wrap {
@@ -30,6 +34,7 @@ h3 {
   grid-template-columns: auto;
   background-color: #2196f3;
   padding: 50px;
+  border-radius: 80px;
 }
 
 .content-wrap1 {
@@ -40,24 +45,23 @@ h3 {
 }
 
 .section {
-  padding: 2% 0;
   padding-top: 0;
-  background-color: #ccc992;
-  animation: section 5s linear infinite alternate;
 }
+
 @keyframes section {
-  from {background-color: rgb(155, 221, 201);}
-  to {background-color: rgb(230, 193, 125);}
+  from {
+    background-color: rgb(155, 221, 201);
+  }
+  to {
+    background-color: rgb(230, 193, 125);
+  }
 }
 
 .footer {
+  border-radius: 80px;
   padding: 1% 10%;
   background-color: #1081af;
   justify-content: center;
-}
-
-.projects img {
-  float: left;
 }
 
 .ul {
@@ -66,7 +70,6 @@ h3 {
 }
 
 .projects {
-  overflow: hidden;
   padding: 50px;
 }
 
