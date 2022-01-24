@@ -1,5 +1,9 @@
-# Personal Portfolio Website
+# Personal-Portfolio
 
-Check out my personal portfolio website! Made using JavaScript and CSS.
+Link to my site: https://sakibur-karim.github.io/Personal-Portfolio/
 
-https://sakibur-karim.github.io/Personal-Portfolio/
+## Tools & Technologies
+
+- HTML
+- CSS
+- Git/GitHub
