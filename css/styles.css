@@ -7,44 +7,47 @@ body {
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-p {
-  margin: 5% 0;
-  font-family: 'Lucida Sans';
-}
 h1,
 h2,
 h3 {
   margin: 0;
 }
+
 .header {
   padding: 80px 0;
   background-color: #c12a64;
 }
+
 .content-wrap {
-  max-width: 390px;
+  max-width: 500px;
   width: 100%;
   margin: 0 auto;
-  padding: 50px 50px;
+  padding: 5px;
 }
-.content-wrap p {
-  padding: 10% 0;
-}
+
 .grid {
   display: grid;
   grid-template-columns: auto;
   background-color: #2196f3;
   padding: 50px;
 }
+
 .content-wrap1 {
-  max-width: 800px;
+  max-width: 1000px;
   width: 85%;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 5px;
 }
+
 .section {
   padding: 2% 0;
   padding-top: 0;
   background-color: #ccc992;
+  animation: section 5s linear infinite alternate;
+}
+@keyframes section {
+  from {background-color: rgb(155, 221, 201);}
+  to {background-color: rgb(230, 193, 125);}
 }
 
 .footer {
@@ -52,21 +55,26 @@ h3 {
   background-color: #1081af;
   justify-content: center;
 }
+
 .projects img {
   float: left;
 }
+
 .ul {
   list-style-type: none;
   line-height: 2;
 }
+
 .projects {
   overflow: hidden;
-  padding: 50px 0;
+  padding: 50px;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 .projects .btn {
   color: #f7fff7;
   background: linear-gradient(#ff6975, #ff0060);
@@ -75,9 +83,11 @@ img {
   border-radius: 80px;
   display: inline-block;
 }
+
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
+
 .btn1 {
   color: #cddfaa;
 }
