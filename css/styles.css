@@ -19,7 +19,7 @@ body {
 #latestLaptopDealsTitle,
 #sierpinskiCarpetTitle,
 #voiceBasedTodoListTitle {
-  margin: 0
+  margin: 0;
 }
 
 #header {
@@ -35,6 +35,13 @@ body {
   padding: 5px;
 }
 
+#content-wrap1 {
+  max-width: 1000px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
 #grid {
   display: grid;
   grid-template-columns: auto;
@@ -42,13 +49,6 @@ body {
   padding: 50px;
   border-radius: 80px;
   margin: 0;
-}
-
-#content-wrap1 {
-  max-width: 1000px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 5px;
 }
 
 #section {
@@ -76,13 +76,13 @@ body {
   line-height: 2;
 }
 
-#projects {
-  padding: 20px;
-}
-
 img {
   max-width: 100%;
   height: auto;
+}
+
+#projects {
+  padding: 20px;
 }
 
 #projects .btn {
