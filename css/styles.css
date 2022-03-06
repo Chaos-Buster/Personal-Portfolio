@@ -9,41 +9,49 @@ body {
   animation: section 2s linear infinite alternate;
 }
 
-h1,
-h2,
-h3 {
+#h1 {
   margin: 0;
 }
 
-.header {
+#bankAccountTitle,
+#tipCalculatorTitle,
+#snakeGameTitle,
+#latestLaptopDealsTitle,
+#sierpinskiCarpetTitle,
+#voiceBasedTodoListTitle {
+  margin: 0
+}
+
+#header {
   padding: 80px 0;
   background-color: #c12a64;
   border-radius: 80px;
 }
 
-.content-wrap {
+#content-wrap {
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
   padding: 5px;
 }
 
-.grid {
+#grid {
   display: grid;
   grid-template-columns: auto;
   background-color: #2196f3;
   padding: 50px;
   border-radius: 80px;
+  margin: 0;
 }
 
-.content-wrap1 {
+#content-wrap1 {
   max-width: 1000px;
   width: 85%;
   margin: 0 auto;
   padding: 5px;
 }
 
-.section {
+#section {
   padding-top: 0;
 }
 
@@ -56,20 +64,20 @@ h3 {
   }
 }
 
-.footer {
+#footer {
   border-radius: 80px;
-  padding: 1% 10%;
+  padding: 0;
   background-color: #1081af;
   justify-content: center;
 }
 
-.ul {
+#ul {
   list-style-type: none;
   line-height: 2;
 }
 
-.projects {
-  padding: 50px;
+#projects {
+  padding: 20px;
 }
 
 img {
@@ -77,19 +85,19 @@ img {
   height: auto;
 }
 
-.projects .btn {
+#projects .btn {
   color: #f7fff7;
-  background: linear-gradient(#ff6975, #ff0060);
+  background: linear-gradient(#4d46a3, #ff0060);
   text-decoration: none;
   padding: 16px;
   border-radius: 80px;
   display: inline-block;
 }
 
-.projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+#projects .btn:hover {
+  background: rgba(143, 212, 52, 0.8);
 }
 
-.btn1 {
+#btn1 {
   color: #cddfaa;
 }
